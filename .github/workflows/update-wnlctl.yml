@@ -37,7 +37,8 @@ jobs:
           $manifest.architecture.'64bit'.hash = $hash
           $manifest | ConvertTo-Json -Depth 10 | Set-Content $manifestPath
 
-          if (git diff --quiet -- $manifestPath) {
+          $changedFiles = git diff --name-only -- $manifestPath
+          if (-not $changedFiles) {
             "changed=false" >> $env:GITHUB_OUTPUT
           } else {
             "changed=true" >> $env:GITHUB_OUTPUT
