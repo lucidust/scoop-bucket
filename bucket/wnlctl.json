@@ -1,13 +1,13 @@
 {
-    "version": "0.1.0",
-    "description": "Windows Night Light control CLI",
-    "homepage": "https://github.com/lucidust/wnlctl",
-    "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/lucidust/wnlctl/releases/download/v0.1.0/wnlctl-windows-x64.zip",
-            "hash": "4120e941a741aeda6b66ac6a05ae2f26d6b4ca578a89d477b992cc6d74bd8676"
-        }
-    },
-    "bin": "wnlctl.exe"
+  "version": "0.1.0",
+  "description": "Windows Night Light control CLI",
+  "homepage": "https://github.com/lucidust/wnlctl",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/lucidust/wnlctl/releases/download/v0.1.0/wnlctl-windows-x64.zip",
+      "hash": "4120e941a741aeda6b66ac6a05ae2f26d6b4ca578a89d477b992cc6d74bd8676"
+    }
+  },
+  "bin": "wnlctl.exe"
 }
